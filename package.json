@@ -5,7 +5,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "snowpack dev",
+    "start": "snowpack dev --port 8689",
     "build": "snowpack build",
     "test": "mocha",
     "doc": "jsdoc -r src"
